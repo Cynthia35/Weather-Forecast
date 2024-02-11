@@ -1,0 +1,123 @@
+body{
+     font-family: 'Roboto', sans-serif;
+    background-image: url("/src/weather-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 90%;
+    
+}
+
+.weather-app{
+    max-width: 600px;
+    margin: 45px auto;
+    text-align: center;
+}
+header{
+    border-bottom: 2px solid black;
+    padding: 0 0 20px 0;
+   
+}
+.search-form-input{
+    background-color: wheat;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.search-form-button{
+    background-color:#189AB4;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: white;
+}
+main{
+    padding: 20px 0;
+}
+.weather-app-data{
+    display: block;
+    justify-content: space-between;
+}
+.weather-app-city{
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+.weather-app-details{
+    font-size: 16px;
+    color: rgba(14, 10, 12, 0.8);
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.weather-app-details strong {
+    color: #f65282;
+}
+
+.weather-app-temperature-container{
+    display: flex;
+}
+
+.weather-app-icon {
+    width: 88px;
+    height: 88px;
+    background-size: cover;
+  }
+
+.weather-app-temperature{
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: bold;
+}
+.weather-app-unit{
+    margin-top: 6px;
+    font-size: 28px;
+}
+
+.weather-forecast{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.weather-forecast-data{
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+    .weather-forecast-day {
+        text-align: center;
+      }
+}
+.weather-forecast-icon{
+    width: 58px;
+    height: 58px;
+    margin: 5px auto;
+}
+.weather-forecast-temperature{
+    text-align: center;
+    color: #f65282;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.weather-forecast-temperature {
+    padding: 0 5px;
+    font-weight: bold;
+  }
+
+footer{
+    border-top: 2px solid black;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: 0 0 0 0.6;
+}
+
+
